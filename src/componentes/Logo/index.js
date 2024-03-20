@@ -1,16 +1,16 @@
 import './estilo.css'
-import Logo from '../../imagens/logo.svg'
+import logo from '../../imagens/logo.svg'
 
-function Logo () {
-    return(
+function Logo() {
+    return (
         <div className='logo'>
             <img
                 src={logo}
-                alt='logo'
+                alt='logo' 
                 className='logo-img'
             ></img>
             <p><strong>Alura</strong>Books</p>
-        </div>
+       </div>
     )
 }
 
