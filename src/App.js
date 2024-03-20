@@ -1,5 +1,5 @@
 import './App.css';
-import logo from './imagens/logo.svg'
+import Logo from './componentes/Logo'
 
 
 function App() {
@@ -7,12 +7,11 @@ function App() {
     <div className='App'>
       <header className='App-header'>
         <div className='logo'>
-          <img src={logo} alt='logo'></img>
-          <p><strong>Alura</strong>Books</p>
+          <Logo><Logo/>
         </div>
       </header>
     </div>
   );
 }
 
-export default App;
+export default App
