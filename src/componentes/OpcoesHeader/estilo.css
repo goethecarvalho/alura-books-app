@@ -1,8 +1,9 @@
+
 .opcoes {
     display: flex;
-  }
-  
-  .opcao {
+}
+
+.opcao {
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -12,4 +13,4 @@
     padding: 0 5px;
     cursor: pointer;
     min-width: 120px;
-  }
+}
