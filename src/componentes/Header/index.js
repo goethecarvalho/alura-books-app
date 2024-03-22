@@ -3,7 +3,7 @@ import OpcoesHeader from '../OpcoesHeader'
 import IconesHeader from '../IconesHeader'
 import styled from 'styled-components'
 
-const HeaderConteiner = styled.header`
+const HeaderContainer = styled.header`
     background-color: #FFF;
     display: flex;
     justify-content: center;
@@ -11,11 +11,11 @@ const HeaderConteiner = styled.header`
 
 function Header() {
     return (
-        <HeaderConteiner>
+        <HeaderContainer>
             <Logo/>
             <OpcoesHeader/>
             <IconesHeader/>
-        </HeaderConteiner>
+        </HeaderContainer>
     )
 }
 
